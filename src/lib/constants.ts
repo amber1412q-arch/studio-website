@@ -23,7 +23,7 @@ export const SITE = {
     "澄川鸮舍是一个专注于文化遗产数字化的小型工作室。我们开发微信小程序、网站等数字产品，致力于让文化遗产焕发新的生命力。",
 
   /** 网站 URL — 部署后更新为实际域名 */
-  url: "https://chengchuan.vercel.app",
+  url: "https://studio-website-dww96r8ju-hedwig1412.vercel.app",
 
   /** 默认的社交分享图片 */
   ogImage: "/images/og-default.png",
