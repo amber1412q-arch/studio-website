@@ -1,0 +1,110 @@
+[
+  {
+    "title": "博物志 · 博物馆导览小程序",
+    "date": "2025-12-15T00:00:00.000Z",
+    "description": "一款为中小型博物馆定制的微信导览小程序，支持语音讲解、AR互动、展品收藏等功能。",
+    "tags": [
+      "微信小程序",
+      "博物馆",
+      "AR",
+      "语音导览"
+    ],
+    "category": "mini-program",
+    "coverImage": "",
+    "images": [],
+    "demoUrl": "",
+    "sourceUrl": "",
+    "draft": false,
+    "featured": true,
+    "content": "const{Fragment:n,jsx:l,jsxs:e}=arguments[0];function _createMdxContent(i){const r={h2:\"h2\",h3:\"h3\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return e(n,{children:[l(r.h2,{children:\"项目背景\"}),\"\\n\",l(r.p,{children:\"很多中小型博物馆没有预算开发自己的导览 App，但游客的体验需求又很真实——扫码听讲解、看 AR 展示、收藏感兴趣的展品……\"}),\"\\n\",e(r.p,{children:[\"「博物志」就是为解决这个矛盾而生：一套\",l(r.strong,{children:\"低成本、可配置\"}),\"的导览小程序方案。\"]}),\"\\n\",l(r.h2,{children:\"主要功能\"}),\"\\n\",l(r.h3,{children:\"🎧 语音导览\"}),\"\\n\",e(r.ul,{children:[\"\\n\",l(r.li,{children:\"展品旁边贴个二维码，扫一扫就能听讲解\"}),\"\\n\",l(r.li,{children:\"支持中英双语\"}),\"\\n\",l(r.li,{children:\"后台可以随时更新内容，不需要重新发布小程序\"}),\"\\n\"]}),\"\\n\",l(r.h3,{children:\"✨ AR 互动\"}),\"\\n\",e(r.ul,{children:[\"\\n\",l(r.li,{children:\"对准特定展品，手机屏幕上叠加动画和信息\"}),\"\\n\",l(r.li,{children:\"比如对准一尊青铜器，可以看到它原本的颜色和使用场景\"}),\"\\n\"]}),\"\\n\",l(r.h3,{children:\"💾 展品收藏\"}),\"\\n\",e(r.ul,{children:[\"\\n\",l(r.li,{children:\"游客可以收藏感兴趣的展品\"}),\"\\n\",l(r.li,{children:\"离开博物馆后还能回顾\"}),\"\\n\",l(r.li,{children:\"分享到朋友圈\"}),\"\\n\"]}),\"\\n\",l(r.h3,{children:\"📊 数据后台\"}),\"\\n\",e(r.ul,{children:[\"\\n\",l(r.li,{children:\"馆方可以看到哪些展品最受欢迎\"}),\"\\n\",l(r.li,{children:\"游客停留时长分布\"}),\"\\n\",l(r.li,{children:\"帮助优化展览布局\"}),\"\\n\"]}),\"\\n\",l(r.h2,{children:\"技术栈\"}),\"\\n\",e(r.ul,{children:[\"\\n\",l(r.li,{children:\"前端：微信小程序原生框架 + Three.js（AR 部分）\"}),\"\\n\",l(r.li,{children:\"后端：微信云开发（降低运维成本）\"}),\"\\n\",l(r.li,{children:\"后台管理：React + Ant Design\"}),\"\\n\"]}),\"\\n\",l(r.h2,{children:\"下一步\"}),\"\\n\",l(r.p,{children:\"目前已完成原型开发，正在和两家博物馆洽谈落地试点。如果你有合作意向，欢迎联系我们。\"})]})}return{default:function(n={}){const{wrapper:e}=n.components||{};return e?l(e,{...n,children:l(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "slug": "bowuzhi-mini-program",
+    "readingTime": {
+      "text": "2 min read",
+      "minutes": 1.65,
+      "time": 99000,
+      "words": 330
+    },
+    "path": "C:\\Users\\ASUS\\studio-website\\content\\projects\\bowuzhi-mini-program.md"
+  },
+  {
+    "title": "非遗故事 · 非遗传承人口述史采集平台",
+    "date": "2026-01-10T00:00:00.000Z",
+    "description": "为非遗传承人建立数字档案的采集和管理平台，支持口述史录音、视频记录、文字转录和多维度标签。",
+    "tags": [
+      "非遗",
+      "口述史",
+      "数据库",
+      "平台"
+    ],
+    "category": "web",
+    "coverImage": "",
+    "images": [],
+    "demoUrl": "",
+    "sourceUrl": "",
+    "draft": false,
+    "featured": false,
+    "content": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(t){const c={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...t.components};return r(n,{children:[e(c.h2,{children:\"项目背景\"}),\"\\n\",e(c.p,{children:\"很多非遗技艺是「人在艺在，人亡艺绝」。传承人的口述、演示、经验，如果不能被系统地记录下来，随时可能消失。\"}),\"\\n\",r(c.p,{children:[\"这个平台的目标是：\",e(c.strong,{children:\"让每一位非遗传承人都有一个完整的数字档案\"}),\"。\"]}),\"\\n\",e(c.h2,{children:\"功能设计\"}),\"\\n\",r(c.ul,{children:[\"\\n\",e(c.li,{children:\"支持音频、视频、图片、文字多种格式\"}),\"\\n\",e(c.li,{children:\"按传承人、项目、地区多维度检索\"}),\"\\n\",e(c.li,{children:\"时间线展示传承谱系\"}),\"\\n\",e(c.li,{children:\"公开发布和内部研究两种权限模式\"}),\"\\n\"]}),\"\\n\",e(c.h2,{children:\"目前阶段\"}),\"\\n\",e(c.p,{children:\"完成了需求调研和原型设计，正在寻找合作方和资金支持。如果你来自文化馆、非遗中心或相关机构，欢迎聊聊。\"})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "slug": "feiyi-oral-history",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.895,
+      "time": 53700,
+      "words": 179
+    },
+    "path": "C:\\Users\\ASUS\\studio-website\\content\\projects\\feiyi-oral-history.md"
+  },
+  {
+    "title": "古建笔记 · 建筑遗产记录工具",
+    "date": "2026-03-20T00:00:00.000Z",
+    "description": "一个面向古建筑爱好者和研究者的移动端记录工具，支持图文采集、GPS 定位、云端同步。",
+    "tags": [
+      "小程序",
+      "古建筑",
+      "田野调查",
+      "工具"
+    ],
+    "category": "mini-program",
+    "coverImage": "",
+    "images": [],
+    "demoUrl": "",
+    "sourceUrl": "",
+    "draft": false,
+    "featured": true,
+    "content": "const{Fragment:n,jsx:e,jsxs:l}=arguments[0];function _createMdxContent(i){const r={h2:\"h2\",h3:\"h3\",li:\"li\",p:\"p\",ul:\"ul\",...i.components};return l(n,{children:[e(r.h2,{children:\"项目背景\"}),\"\\n\",e(r.p,{children:\"做文化遗产工作，田野调查是基本功。但目前的记录方式还很原始——手机拍照 + 笔记本手写 + 回去再整理到电脑上。\"}),\"\\n\",e(r.p,{children:\"我想要的是一站式的记录工具：拍照时自动记录 GPS 位置，现场就能填写观察笔记，回来后所有数据已经在云端整整齐齐了。\"}),\"\\n\",e(r.h2,{children:\"主要功能\"}),\"\\n\",e(r.h3,{children:\"📸 智能采集\"}),\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"拍照自动标记 GPS、时间、朝向\"}),\"\\n\",e(r.li,{children:\"支持语音转文字记录\"}),\"\\n\",e(r.li,{children:\"按项目/地点分类管理\"}),\"\\n\"]}),\"\\n\",e(r.h3,{children:\"🏗️ 建筑构件标记\"}),\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"在照片上标注构件名称\"}),\"\\n\",e(r.li,{children:\"内置《营造法式》等术语库\"}),\"\\n\",e(r.li,{children:\"支持团队协作标注\"}),\"\\n\"]}),\"\\n\",e(r.h3,{children:\"☁️ 云端同步\"}),\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"所有数据实时同步\"}),\"\\n\",e(r.li,{children:\"离线可用（在没信号的古建筑里也能记录）\"}),\"\\n\",e(r.li,{children:\"导出为 Excel/PDF\"}),\"\\n\"]}),\"\\n\",e(r.h2,{children:\"当前状态\"}),\"\\n\",e(r.p,{children:\"还在开发中。这个项目是我的「梦中情工具」，一边做一边打磨。\"}),\"\\n\",e(r.p,{children:\"有兴趣一起用或者提建议的朋友，非常欢迎！\"})]})}return{default:function(n={}){const{wrapper:l}=n.components||{};return l?e(l,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "slug": "gujian-notes",
+    "readingTime": {
+      "text": "2 min read",
+      "minutes": 1.265,
+      "time": 75900,
+      "words": 253
+    },
+    "path": "C:\\Users\\ASUS\\studio-website\\content\\projects\\gujian-notes.md"
+  },
+  {
+    "title": "澄川鸮舍 · 工作室官网",
+    "date": "2026-07-06T00:00:00.000Z",
+    "description": "澄川鸮舍工作室的官方网站，展示项目作品、博客文章，支持 Markdown 内容管理。",
+    "tags": [
+      "网站",
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "category": "web",
+    "coverImage": "",
+    "images": [],
+    "demoUrl": "https://chengchuan.vercel.app",
+    "sourceUrl": "",
+    "draft": false,
+    "featured": true,
+    "content": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(l){const c={code:\"code\",h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...l.components};return r(n,{children:[e(c.h2,{children:\"关于这个网站\"}),\"\\n\",e(c.p,{children:\"你正在浏览的就是它！这是澄川鸮舍的官方网站。\"}),\"\\n\",e(c.p,{children:\"作为一个工作室的门面，它需要做到：\"}),\"\\n\",r(c.ul,{children:[\"\\n\",e(c.li,{children:\"展示我们做过的项目\"}),\"\\n\",e(c.li,{children:\"发布和公众号同步的博客\"}),\"\\n\",e(c.li,{children:\"让潜在客户了解我们\"}),\"\\n\",e(c.li,{children:\"以后拓展文化导览预约功能\"}),\"\\n\"]}),\"\\n\",e(c.h2,{children:\"设计理念\"}),\"\\n\",e(c.p,{children:\"「一川琥珀 万物有灵」——我们希望网站本身也有灵气。\"}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[e(c.strong,{children:\"色调\"}),\"：暖白底色 + 琥珀金点缀，温暖而不耀眼\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"排版\"}),\"：中文优先，行距舒适，适合长时间阅读\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"体验\"}),\"：手机和电脑都能获得好的浏览体验\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{children:\"技术实现\"}),\"\\n\",r(c.p,{children:[\"这个网站用 Next.js 14 搭建，所有内容通过 Markdown 文件管理——添加新文章只需要写一个 \",e(c.code,{children:\".md\"}),\" 文件然后推送到 GitHub。\"]}),\"\\n\",e(c.p,{children:\"更详细的技术说明，以后写一篇专门的博客来介绍。\"})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "slug": "studio-website",
+    "readingTime": {
+      "text": "2 min read",
+      "minutes": 1.12,
+      "time": 67200,
+      "words": 224
+    },
+    "path": "C:\\Users\\ASUS\\studio-website\\content\\projects\\studio-website.md"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "文化遗产数字化入门：我们能做什么？",
+    "date": "2026-07-03T00:00:00.000Z",
+    "description": "从博物馆导览小程序到古建筑三维扫描，聊聊文化遗产数字化的几种常见形式和它们的适用场景。",
+    "tags": [
+      "文化遗产",
+      "数字化",
+      "科普"
+    ],
+    "coverImage": "",
+    "draft": false,
+    "featured": true,
+    "content": "const{Fragment:n,jsx:r,jsxs:e}=arguments[0];function _createMdxContent(h){const l={em:\"em\",h2:\"h2\",h3:\"h3\",hr:\"hr\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...h.components};return e(n,{children:[r(l.h2,{children:\"什么是文化遗产数字化？\"}),\"\\n\",r(l.p,{children:\"简单说，就是用数字技术（拍照、扫描、建模、编程……）来记录、保护、传播文化遗产。\"}),\"\\n\",r(l.p,{children:\"它不是一个单一的技术门类，而是一整套方法工具箱。不同的遗产类型、不同的应用场景，用的工具也完全不同。\"}),\"\\n\",r(l.h2,{children:\"几种常见形式\"}),\"\\n\",r(l.h3,{children:\"1. 数字化记录\"}),\"\\n\",r(l.p,{children:\"用摄影、扫描、录音等方式，把物理世界的文化遗产转成数字档案。\"}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:[r(l.strong,{children:\"文物拍照\"}),\"：高精度摄影，用于在线图录和学术研究\"]}),\"\\n\",e(l.li,{children:[r(l.strong,{children:\"三维扫描\"}),\"：用激光扫描仪或摄影测量，生成文物/建筑的三维模型\"]}),\"\\n\",e(l.li,{children:[r(l.strong,{children:\"口述史录音\"}),\"：记录非遗传承人的讲述和演示\"]}),\"\\n\"]}),\"\\n\",r(l.h3,{children:\"2. 数字化展示\"}),\"\\n\",r(l.p,{children:\"让这些数字档案可以被公众看到。比如博物馆的互动屏、线上展厅、VR 体验等。\"}),\"\\n\",r(l.h3,{children:\"3. 数字化传播\"}),\"\\n\",r(l.p,{children:\"通过互联网把内容推出去。这是我们目前最擅长的领域：\"}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:[r(l.strong,{children:\"微信小程序\"}),\"：博物馆导览、AR 互动、语音讲解\"]}),\"\\n\",e(l.li,{children:[r(l.strong,{children:\"网站/H5\"}),\"：专题展示、线上展览\"]}),\"\\n\",e(l.li,{children:[r(l.strong,{children:\"短视频\"}),\"：文物故事的另一种讲法\"]}),\"\\n\"]}),\"\\n\",r(l.h3,{children:\"4. 数字化管理\"}),\"\\n\",r(l.p,{children:\"面向机构内部的工具，比如藏品管理系统、文物保护监测平台。\"}),\"\\n\",r(l.h2,{children:\"我们目前聚焦的\"}),\"\\n\",e(l.p,{children:[\"澄川鸮舍目前主要做 \",r(l.strong,{children:\"数字化传播\"}),\" 这一块——帮文化遗产机构做面向公众的小程序和网站。\"]}),\"\\n\",r(l.p,{children:\"为什么选这个方向？因为传播是离「人」最近的一环。技术再酷炫，如果没人看到、没人理解，意义就少了一大半。\"}),\"\\n\",r(l.p,{children:\"后面我也会写文章分享具体的项目案例和技术细节。敬请期待！\"}),\"\\n\",r(l.hr,{}),\"\\n\",r(l.p,{children:r(l.em,{children:\"有任何问题或合作想法，欢迎通过公众号联系我们\"})})]})}return{default:function(n={}){const{wrapper:e}=n.components||{};return e?r(e,{...n,children:r(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "slug": "2026-07-digital-heritage-intro",
+    "readingTime": {
+      "text": "3 min read",
+      "minutes": 2.295,
+      "time": 137700,
+      "words": 459
+    },
+    "path": "C:\\Users\\ASUS\\studio-website\\content\\blog\\2026-07-digital-heritage-intro.md"
+  },
+  {
+    "title": "你好，世界！澄川鸮舍的第一篇博客",
+    "date": "2026-07-01T00:00:00.000Z",
+    "description": "澄川鸮舍工作室正式上线了。这篇文章聊聊我为什么在工作第五年决定做这件事，以及接下来想和大家分享什么。",
+    "tags": [
+      "工作室",
+      "文化遗产",
+      "自媒体"
+    ],
+    "coverImage": "",
+    "draft": false,
+    "featured": true,
+    "content": "const{Fragment:n,jsx:r,jsxs:e}=arguments[0];function _createMdxContent(l){const c={em:\"em\",h2:\"h2\",hr:\"hr\",li:\"li\",ol:\"ol\",p:\"p\",strong:\"strong\",ul:\"ul\",...l.components};return e(n,{children:[r(c.h2,{children:\"为什么是澄川鸮舍？\"}),\"\\n\",r(c.p,{children:\"名字来自两个我很喜欢的意象：「琥珀川」和「海德薇」。\"}),\"\\n\",r(c.p,{children:\"琥珀川是《千与千寻》里白龙的本名——一条清澈见底的河流。海德薇是哈利波特的猫头鹰伙伴，忠诚、智慧、通人性。\"}),\"\\n\",e(c.p,{children:[\"我把它们揉在一起——\",r(c.strong,{children:\"澄川鸮舍\"}),\"。一条清澈的河流，一只在河面上飞翔的猫头鹰，一个安放想法的小屋。\"]}),\"\\n\",r(c.p,{children:\"「一川琥珀 万物有灵」是我们的 slogan。我相信每一件老物件、每一段老故事、每一座老建筑里，都栖居着值得被听见的灵魂。我们要做的，就是用数字的方式，让它们被看见。\"}),\"\\n\",r(c.h2,{children:\"第五年，做点自己的事\"}),\"\\n\",r(c.p,{children:\"今年是我工作的第五年。\"}),\"\\n\",r(c.p,{children:\"这五年里，我一直在文化遗产领域摸爬滚打。走过很多古迹、看过很多文物、也见证了数字化技术如何慢慢渗透进这个古老的行业。\"}),\"\\n\",r(c.p,{children:\"积累了一些经验，也攒下了一些想法。是时候把它们整理出来，做成一些实实在在的东西了。\"}),\"\\n\",r(c.h2,{children:\"这个网站会有什么？\"}),\"\\n\",r(c.p,{children:\"目前规划的几个板块：\"}),\"\\n\",e(c.ol,{children:[\"\\n\",e(c.li,{children:[r(c.strong,{children:\"项目展示\"}),\" —— 我们开发的小程序、网站、数字工具\"]}),\"\\n\",e(c.li,{children:[r(c.strong,{children:\"博客\"}),\" —— 关于文化遗产数字化的思考和经验（和公众号同步更新）\"]}),\"\\n\",e(c.li,{children:[r(c.strong,{children:\"文化导览\"}),\" —— 以后会带线下团课，这里会放课程信息和报名入口\"]}),\"\\n\"]}),\"\\n\",r(c.p,{children:\"不急，慢慢来。先让这个网站长出来。\"}),\"\\n\",r(c.h2,{children:\"关于公众号\"}),\"\\n\",r(c.p,{children:\"我会同时运营一个同名的微信公众号「澄川鸮舍」。网站和公众号的内容会同步，但各有侧重：\"}),\"\\n\",e(c.ul,{children:[\"\\n\",e(c.li,{children:[r(c.strong,{children:\"公众号\"}),\"：适合碎片化阅读，更偏故事性和即时性\"]}),\"\\n\",e(c.li,{children:[r(c.strong,{children:\"网站\"}),\"：适合深度阅读，更偏知识整理和项目归档\"]}),\"\\n\"]}),\"\\n\",r(c.p,{children:\"两边互补，感兴趣的朋友可以都关注。\"}),\"\\n\",r(c.hr,{}),\"\\n\",r(c.p,{children:r(c.em,{children:\"澄川鸮舍，2026 年夏\"})})]})}return{default:function(n={}){const{wrapper:e}=n.components||{};return e?r(e,{...n,children:r(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "slug": "2026-07-hello-world",
+    "readingTime": {
+      "text": "3 min read",
+      "minutes": 2.465,
+      "time": 147900,
+      "words": 493
+    },
+    "path": "C:\\Users\\ASUS\\studio-website\\content\\blog\\2026-07-hello-world.md"
+  },
+  {
+    "title": "公众号运营计划：和我一起探索文化遗产的数字世界",
+    "date": "2026-07-05T00:00:00.000Z",
+    "description": "分享「澄川鸮舍」公众号的内容规划和发布节奏，欢迎订阅和反馈。",
+    "tags": [
+      "公众号",
+      "自媒体",
+      "计划"
+    ],
+    "coverImage": "",
+    "draft": false,
+    "featured": false,
+    "content": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(l){const h={em:\"em\",h2:\"h2\",h3:\"h3\",hr:\"hr\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...l.components};return r(n,{children:[e(h.h2,{children:\"公众号定位\"}),\"\\n\",e(h.p,{children:\"「澄川鸮舍」公众号和这个网站是一体的——同一个品牌，同样的内容调性，只是传播渠道不同。\"}),\"\\n\",e(h.p,{children:\"公众号的目标读者是：\"}),\"\\n\",r(h.ul,{children:[\"\\n\",e(h.li,{children:\"对文化遗产感兴趣的人\"}),\"\\n\",e(h.li,{children:\"想要了解数字化技术的文博从业者\"}),\"\\n\",e(h.li,{children:\"我的潜在客户和合作伙伴\"}),\"\\n\"]}),\"\\n\",e(h.h2,{children:\"内容栏目\"}),\"\\n\",e(h.p,{children:\"初步规划几个固定栏目（会边做边调整）：\"}),\"\\n\",e(h.h3,{children:\"📝 工作笔记\"}),\"\\n\",e(h.p,{children:\"分享项目中的经验和教训。不是高大上的成功学，而是真刀真枪的实操记录。\"}),\"\\n\",e(h.h3,{children:\"🏛️ 走读笔记\"}),\"\\n\",e(h.p,{children:\"每次去古迹、博物馆、展览的记录和感受。\"}),\"\\n\",e(h.h3,{children:\"🛠️ 工具箱\"}),\"\\n\",e(h.p,{children:\"推荐文化遗产数字化相关的工具、资源、学习资料。\"}),\"\\n\",e(h.h3,{children:\"📢 项目速递\"}),\"\\n\",e(h.p,{children:\"我们做的项目上线了，来这里吆喝一声。\"}),\"\\n\",e(h.h2,{children:\"发布节奏\"}),\"\\n\",r(h.ul,{children:[\"\\n\",e(h.li,{children:\"每周 1-2 篇\"}),\"\\n\",e(h.li,{children:\"周末发一篇深度长文\"}),\"\\n\",e(h.li,{children:\"周中可能有一篇短更新\"}),\"\\n\"]}),\"\\n\",e(h.h2,{children:\"网站和公众号怎么配合？\"}),\"\\n\",r(h.ul,{children:[\"\\n\",r(h.li,{children:[\"所有文章在网站和公众号\",e(h.strong,{children:\"同步发布\"})]}),\"\\n\",e(h.li,{children:\"网站的文章更完整，有更好的阅读体验\"}),\"\\n\",e(h.li,{children:\"公众号方便转发和互动\"}),\"\\n\"]}),\"\\n\",e(h.p,{children:\"网站是「图书馆」，公众号是「报纸」。各有各的用处。\"}),\"\\n\",e(h.hr,{}),\"\\n\",e(h.p,{children:e(h.em,{children:\"扫码关注「澄川鸮舍」公众号（二维码即将上线）\"})})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "slug": "2026-07-wechat-account-plan",
+    "readingTime": {
+      "text": "2 min read",
+      "minutes": 1.615,
+      "time": 96900,
+      "words": 323
+    },
+    "path": "C:\\Users\\ASUS\\studio-website\\content\\blog\\2026-07-wechat-account-plan.md"
+  }
+]

@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════
+   澄川鸮舍 — 设计令牌 (Design Tokens)
+   品牌色系：琥珀金 + 暖白底 + 深棕字
+   意境："一川琥珀 万物有灵"
+   ═══════════════════════════════════════════════════ */
+
+:root {
+  /* 背景色 */
+  --color-bg-primary: #fdfbf7;    /* 暖白 — 页面主背景 */
+  --color-bg-secondary: #f7f4eb;  /* 米白 — 卡片、区块背景 */
+  --color-bg-tertiary: #ede7d5;   /* 浅驼色 — hover、选中态 */
+
+  /* 文字色 */
+  --color-text-primary: #2d2418;   /* 深棕 — 正文 */
+  --color-text-secondary: #6b5e53; /* 暖灰 — 副标题、说明文字 */
+  --color-text-muted: #9b8b7a;     /* 浅棕 — 占位、不重要的信息 */
+
+  /* 强调色 — 琥珀金 */
+  --color-accent: #d4892a;         /* 链接、按钮、高亮 */
+  --color-accent-hover: #b06d21;   /* hover 加深 */
+  --color-accent-light: #fdf3e0;   /* 浅琥珀底 */
+
+  /* 边框和分割线 */
+  --color-border: #e0d7c5;         /* 浅米色边框 */
+  --color-border-light: #ede7d5;   /* 更浅的边框 */
+
+  /* 状态色 */
+  --color-success: #4a7c5c;        /* 成功绿（以后预约功能用） */
+  --color-error: #c1292e;          /* 错误红 */
+}
+
+/* 全局基础样式 */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text-primary);
+  background: var(--color-bg-primary);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei",
+    system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 选择文字的颜色 */
+::selection {
+  background-color: var(--color-accent-light);
+  color: var(--color-text-primary);
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ═══ 可复用的工具类 ═══ */
+
+@layer components {
+  /* 内容区最大宽度容器 */
+  .container-site {
+    @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* 文章内容区（窄一些，方便阅读） */
+  .container-article {
+    @apply mx-auto max-w-3xl px-4 sm:px-6;
+  }
+
+  /* 页面标题样式 */
+  .page-title {
+    @apply text-3xl sm:text-4xl font-bold tracking-tight;
+    color: var(--color-text-primary);
+  }
+
+  .page-subtitle {
+    @apply text-lg mt-3;
+    color: var(--color-text-secondary);
+  }
+}
