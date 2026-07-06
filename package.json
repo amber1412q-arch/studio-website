@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:cloudflare": "node scripts/prebuild-cloudflare.js && next build && node scripts/postbuild-cloudflare.js",
+    "deploy:cloudflare": "npm run build:cloudflare && wrangler pages deploy out/ --project-name=studio-website",
     "start": "next start",
     "lint": "next lint"
   },
