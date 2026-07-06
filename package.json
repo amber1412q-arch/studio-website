@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "node scripts/prebuild-cloudflare.js && next build && node scripts/postbuild-cloudflare.js",
     "start": "next start",
     "lint": "next lint"
   },
